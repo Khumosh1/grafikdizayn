@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyektlar</title>
+  <link rel="icon" href="favicon/favicon1.png">
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+
+    .Item1 {
+      width: 33%;
+      height: auto;
+    }
+
+    .Item2 {
+      width: 34%;
+      height: auto;
+      align-self: flex-start;
+    }
+
+    .Item3 {
+      width: 33%;
+      height: auto;
+    }
+
+    .Item4 {
+      width: 33%;
+      height: auto;
+      align-self: flex-start;
+    }
+
+    .Item5 {
+      width: 34%;
+      height: auto;
+    }
+
+    .Item6 {
+      width: 33%;
+      height: auto;
+      align-self: flex-start;
+
+    }
+
+    .Item7 {
+      width: 33%;
+      height: auto;
+      align-self: flex-start;
+    }
+
+    .Item8 {
+      width: 34%;
+      height: auto;
+    }
+
+    .Item9 {
+      width: 33%;
+      height: auto;
+      align-self: flex-start;
+    }
+
+    .copywrite {
+      padding: 20px 0;
+      color: white;
+    }
+
+    .bottom2 {
+      display: flex;
+      background: orangered;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 650px) {
+
+      .gallery,
+      .itemw {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+
+      .nav {
+        font-size: 1.5em;
+
+      }
+
+
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <header class="main-header">
+    <ul class="nav">
+      <span class="proy">
+        <li><a href="index.html">Ortga</a></li>
+      </span>
+      <span>
+        <li><a href="works.html">Xizmatlar</a></li>
+      </span>
+    </ul>
+  </header>
+
+
+  <h1 style="text-align:center">Mening proyektlarim</h1>
+  <div class="gallery">
+    <img src="img/sample6.jpg" alt="Sample photo" class="Item1 itemw">
+    <img src="img/sample7.jpg" alt="Sample photo" class="Item2 itemw">
+    <img src="img/sample8.jpg" alt="Sample photo" class="Item3 itemw">
+    <img src="img/sample1.jpg" alt="Sample photo" class="Item4 itemw">
+    <img src="img/sample5.jpg" alt="Sample photo" class="Item5 itemw">
+    <img src="img/sample2.jpg" alt="Sample photo" class="Item6 itemw">
+    <img src="img/sample4.jpg" alt="Sample photo" class="Item7 itemw">
+    <img src="img/sample3.jpg" alt="Sample photo" class="Item8 itemw">
+    <img src="img/main-photo.jpg" alt="Sample photo" class="Item9 itemw">
+  </div>
+
+  <footer class="bottom2">
+    <p class="copywrite">© Shamatov Rustam.</p>
+  </footer>
+
+</body>
+
+</html>

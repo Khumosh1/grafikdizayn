@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon/favicon1.png">
+  <title>Xizmatlar</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+
+    .container {
+      text-align: center;
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+        font-size: 1.5em;
+      }
+
+      .nav {
+        font-size: 1.5em;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="main-header">
+    <ul class="nav">
+      <span class="proy">
+        <li><a href="index.html">Ortga</a></li>
+      </span>
+      <span>
+        <li><a href="projects.html">Proyektlar</a></li>
+      </span>
+
+    </ul>
+  </header>
+
+
+  <h1 style="text-align:center">Mening xizmatlarim</h1>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="img/vizitka.jpg" alt="rasm" style="width:100%">
+        <div class="container">
+          <h2>Vizitka Dizayn</h2>
+          <p class="title">35,000-100,000 so'm gacha</p>
+          <p>Narxi dizayn va proyektga qarab belgilanadi.</p>
+          <p><button class="button"><a href="https://telegram.me/Rustamjon_627">BUYURTMA QILISH</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="img/smm.jpg" alt="rasm" style="width:100%">
+        <div class="container">
+          <h2>Smm Dizayn</h2>
+          <p class="title">50,000-100,0000 so'm gacha</p>
+          <p>Narxi dizayn va proyektga qarab belgilanadi.</p>
+          <p><button class="button"><a href="https://telegram.me/Rustamjon_627">BUYURTMA QILISH</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="img/youtube-banner.jpg" alt="rasm" style="width:100%">
+        <div class="container">
+          <h2>YouTube banner</h2>
+          <p class="title">35,000-100,000 so'm gacha</p>
+          <p>Narxi dizayn va proyektga qarab belgilanadi.</p>
+          <p><button class="button"><a href="https://telegram.me/Rustamjon_627">BUYURTMA QILISH</a></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
